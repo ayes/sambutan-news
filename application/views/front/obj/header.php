@@ -14,7 +14,26 @@
     <?php echo $css1; ?>
     <?php echo $css2; ?>
     <?php echo $css3; ?>
-    
+    <style>
+        .embed-container 
+        { 
+            position: relative; 
+            padding-bottom: 56.25%; 
+            padding-top: 30px; 
+            height: 0; 
+            overflow: hidden; 
+            max-width: 100%; 
+            height: auto; 
+        } 
+        .embed-container iframe, .embed-container object, .embed-container embed 
+        { 
+            position: absolute; 
+            top: 0; 
+            left: 0; 
+            width: 100%; 
+            height: 100%; 
+        }
+    </style>
     
   </head>
   <body>
